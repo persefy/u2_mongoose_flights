@@ -4,7 +4,7 @@ const { Airport } = require('../models')
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
-    const airport = [
+    const airports = [
         {
             name: 'Hartsfield-Jackson Atlanta International Airport',
             location: 'Atlanta, GA, US',
@@ -31,7 +31,7 @@ const main = async () => {
             code: 'LGW'
           }
     ]
-    await Airport.insertMany(airport)
+    await Airport.insertMany(airports)
     console.log('inserted airports!')
 }
 

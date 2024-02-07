@@ -12,7 +12,7 @@ const lgwAirport = await Airport.find({ name: 'London Gatwick Airport' })
 
 const flights = [
     {
-      airline: '',
+      airline: 'Delta',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -22,7 +22,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'Delta',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -32,7 +32,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'Frontier',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -42,7 +42,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'Frontier',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -52,7 +52,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'JetBlue',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -62,7 +62,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'JetBlue',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
@@ -72,7 +72,7 @@ const flights = [
       departure_time: ''
     },
     {
-      airline: '',
+      airline: 'JetBlue',
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
