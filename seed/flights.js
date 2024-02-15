@@ -16,8 +16,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: atlAirport[0]._id,
-      arrivalAirport: miaAirport[0]._id,
+      departingAirport_id: atlAirport[0]._id,
+      arrivalAirport_id: miaAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -26,8 +26,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: miaAirport[0]._id,
-      arrivalAirport: atlAirport[0]._id,
+      departingAirport_id: miaAirport[0]._id,
+      arrivalAirport_id: atlAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -36,8 +36,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: atlAirport[0]._id,
-      arrivalAirport: cleAirport[0]._id,
+      departingAirport_id: atlAirport[0]._id,
+      arrivalAirport_id: cleAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -46,8 +46,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: cleAirport[0]._id,
-      arrivalAirport: atlAirport[0]._id,
+      departingAirport_id: cleAirport[0]._id,
+      arrivalAirport_id: atlAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -56,8 +56,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: atlAirport[0]._id,
-      arrivalAirport: tpaAirport[0]._id,
+      departingAirport_id: atlAirport[0]._id,
+      arrivalAirport_id: tpaAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -66,8 +66,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: tpaAirport[0]._id,
-      arrivalAirport: lgwAirport[0]._id,
+      departingAirport_id: tpaAirport[0]._id,
+      arrivalAirport_id: lgwAirport[0]._id,
       departure_date: '',
       departure_time: ''
     },
@@ -76,8 +76,8 @@ const flights = [
       flight_number: 0,
       price: 0,
       number_of_Seats: 0,
-      departingAirport: lgwAirport[0]._id,
-      arrivalAirport: atlAirport[0]._id,
+      departingAirport_id: lgwAirport[0]._id,
+      arrivalAirport_id: atlAirport[0]._id,
       departure_date: '',
       departure_time: ''
     }
